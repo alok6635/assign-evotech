@@ -1,0 +1,41 @@
+.progress_cover {
+    display: flex;
+    padding-bottom: 20px;
+
+    .progress_bar {
+        padding-bottom: 100px;
+        border-radius: 12px;
+        background: #FFF;
+        width: 50%;
+        margin-right: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    .progress_status {
+        padding: 23px 0 0 29px;
+        border-radius: 12px;
+        background: #FFF;
+        width: 50%;
+        margin-left: 10px;
+
+        .sales {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 30px;
+            padding-bottom: 20px;
+        }
+
+        span {
+            color: #212121;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+    }
+}

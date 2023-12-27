@@ -1,0 +1,55 @@
+.hero_header {
+    padding:15px 8px 15px 36px;
+
+    .show_pannel {
+        span {
+            color: #434349;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding-right: 99px;
+        }
+
+        strong {
+            color: #FFA800;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding: 8px;
+            display: inline-block;
+            border-radius: 4px;
+            background: #FFF4DE;
+        }
+    }
+
+    .routine_task {
+        ul li {
+            margin: 0 21px;
+            color: #959CB6;
+            color: #6993FF;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .active {
+            border-radius: 4px;
+            background: #F3F6F9;
+            padding: 6px;
+
+        }
+
+        i {
+            width: 36px;
+            height: 36px;
+            background: url(../../assets/images/add.png);
+            display: block;
+            margin-right: 15px;
+        }
+
+    }
+}

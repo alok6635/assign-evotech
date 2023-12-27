@@ -1,0 +1,34 @@
+.new_arrivals {
+    margin-bottom: 20px;
+    strong {
+        color: #212121;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #B5B5C3;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .calender li {
+        margin: 0 14px;
+        color: #B5B5C3;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .newActive {
+        border-radius: 6px;
+        background: #464E5F;
+        color: #fff;
+        padding: 8px 14px ;
+    }
+}

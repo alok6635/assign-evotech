@@ -1,0 +1,65 @@
+.prog_details {
+    li{
+        padding-bottom: 20px;
+    }
+    span {
+        background: #EEE5FF;
+        display: inline-block;
+        border-radius: 12px;
+        background: #EEE5FF;
+        padding: 10px;
+        margin-right: 14px;
+        height: auto;
+    }
+
+    .progress_data {
+        h4 {
+            color: #000;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 3px;
+        }
+
+        h6 {
+            color: #B5B5C3;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+
+    .library{
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/images/Library-1.png);
+        display: block;
+        border-radius: 12px;
+    }
+
+    .mic{
+
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/images/mic.png);
+        display: block;
+        border-radius: 12px;
+    }
+    .chat{
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/images/chat.png);
+        display: block;
+        border-radius: 12px;
+    }
+    .attachment{
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/images/attachment.png);
+        display: block;
+        border-radius: 12px;
+    }
+}

@@ -1,0 +1,150 @@
+.arrivals {
+    background: #ffff;
+    padding: 26px 29px 0;
+
+    .arrivals_details {
+        .plurk {
+            width: 28px;
+            height: 28px;
+            background: url(../../assets/images/plurk.png);
+            display: block;
+        }
+
+        .telegram {
+            width: 29px;
+            height: 29px;
+            background: url(../../assets/images/telegram.png);
+            display: block;
+        }
+
+        .cisco {
+            width: 29px;
+            height: 29px;
+            background: url(../../assets/images/puzzle.png);
+            display: block;
+        }
+
+        .bebo {
+            width: 29px;
+            height: 29px;
+            background: url(../../assets/images/bebo.png);
+            display: block;
+        }
+
+        .kickstar {
+            width: 29px;
+            height: 29px;
+            background: url(../../assets/images/kickstarter.png);
+            display: block;
+        }
+        strong{
+            color: #464E5F;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+        }
+    }
+
+    .arrival_covers {
+        display: flex;
+        align-items: flex-start;
+
+        .plurk {
+            width: 28px;
+            height: 28px;
+            background: url(../../assets/images/plurk.png);
+            display: block;
+
+        }
+
+        .btn {
+            border-radius: 6px;
+            background: #EEE5FF;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding: 5px 10px;
+            margin: 0 10px;
+            border-radius: 6px;
+        }
+
+        .progress {
+            color: #FFA800;
+            background: #FFF4DE;
+
+        }
+
+        .success {
+            color: #1BC5BD;
+            background: #C9F7F5;
+        }
+
+        .approved {
+            color: #8950FC;
+        }
+
+        .rejected {
+            color: #F64E60;
+            background: #FFE2E5;
+        }
+
+        .setting {
+            width: 18px;
+            height: 18px;
+            background: url(../../assets/images/settings.png);
+            display: block;
+        }
+
+        .delete {
+            width: 16px;
+            height: 16px;
+            background: url(../../assets/images/edit.png);
+            display: block;
+        }
+
+        .edit {
+            width: 18px;
+            height: 18px;
+            background: url(../../assets/images/delete.png);
+            display: block;
+        }
+
+
+        .expense {
+            margin: 0 20px;
+
+            h2 {
+                color: #464E5F;
+                text-align: right;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 8px;
+            }
+
+            h6 {
+                color: #B5B5C3;
+                text-align: right;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+        li {
+            margin: 0 15px;
+            padding: 10px;
+        }
+
+        li {
+            border-radius: 6px;
+            background: #F3F6F9;
+        }
+    }
+
+
+}

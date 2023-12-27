@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+}
+.header-panel{
+    border-bottom: 1px solid #EEEFF3;
+    width: calc(100% - 179px);
+ul{
+    justify-content: flex-end;
+    margin-right: -26px;
+}
+    li{
+        margin-left: 10px;
+    }
+    .icon-one{
+        background-position: 0 0;
+    }.icon-two{
+        background-position: -54px 0;
+    }.icon-third{
+        background-position: -109px 0;
+    }.icon-fourth{
+        background-position: -161px 0;
+    }
+}
+.user-info{
+    width: 179px;
+    padding-left: 45px;
+    box-sizing: border-box;
+    span{
+        color: #959CB6;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    strong{
+        width: 43.368px;
+height: 42.117px;
+border-radius: 4px;
+background: #D7F9EF;
+color: #0BB783;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 9px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+}

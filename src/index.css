@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none    ;
+    box-sizing: border-box;
+}
+.wrapper{
+    align-items: baseline;
+}
+body{
+    font-family: var(--main-font-Family);
+    line-height: 1;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.flex-justify-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+.flex-justify{
+    display: flex;
+    justify-content: space-between;
+}
+
+:root {
+     --main-font-Family:'Poppins', sans-serif;;
+  }
+
+
+  [class^=icon-]{
+    width: 30px;
+    height: 30px;
+    background: url(assets/images/sprite.png) no-repeat;
+  }

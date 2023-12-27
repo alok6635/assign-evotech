@@ -1,0 +1,108 @@
+.aside_wrapper {
+    background: #1E1E2D;
+    width: 319.237px;
+    height: 1505px;
+
+    .logo {
+        padding-right: 30px;
+        margin-bottom: 37px;
+        background: #1B1B28;
+
+        h1 {
+            text-transform: uppercase;
+            padding: 15px 0 25px 30px;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            color: #FFFFFF;
+            align-items: center;
+        }
+
+        .toggle-icon {
+            width: 29px;
+            height: 29px;
+            background: url(../../assets/images/toggle.png);
+            display: block;
+        }
+    }
+
+    .dashboard {
+        background: #1B1B28;
+        padding: 12px 0;
+        margin-bottom: 37px;
+        padding-left: 30px;
+
+        h2 {
+            color: #FFF;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+        }
+
+        .dashboard-icon {
+            width: 29px;
+            height: 29px;
+            display: block;
+            margin-right: 15px;
+
+        }
+    }
+
+    .accordian_design {
+        padding-left: 25px;
+        padding-right: 32px;
+
+        .dashboard-icon {
+            margin-right: 15px;
+        }
+
+        span {
+            color: #4A4B68;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        h2 {
+            color: #FFF;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        li {
+            color: #888C9F;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            span {
+                font-size: 14px;
+                color: #888C9F;
+ margin-right: 11px;
+            }
+            svg{
+                width: 10px;
+                transform: rotate(-90deg);
+                path{
+                    fill:#888C9F;
+                }
+            }
+        }
+
+        .accodianHead {
+            margin-bottom: 26px;
+        }
+    }
+
+
+
+}
